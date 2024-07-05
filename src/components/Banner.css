@@ -8,16 +8,19 @@
     height: auto;
     display: flex;
     justify-content: space-around;
+    gap: 20px; 
+    flex-wrap: wrap;
 }
 
 .animacao img {
-    height: 200px;
-    gap: 100px;
+    width: auto; 
+    max-width: 100%; 
 }
 
 .bem-vindo {
     width: 30%;
     line-height: 1.6;
+    margin-right: 20px; 
 }
 
 .banner-section {
@@ -51,3 +54,20 @@ figure img:hover {
     transform: rotate(45deg);
 }
 
+@media screen and (max-width: 768px) {
+    .animacao {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .bem-vindo {
+        width: 100%; 
+        margin-right: 0; 
+        margin-bottom: 20px; 
+    }
+
+    .animacao img {
+        height: auto; 
+        max-width: 100%;
+    }
+}

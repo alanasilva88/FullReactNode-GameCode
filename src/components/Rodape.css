@@ -46,6 +46,9 @@ footer {
         flex-direction: column;
         text-align: center;
         align-items: center;
+        padding-bottom: 20px;
+        position: fixed;
+        bottom: 0;
     }
 
     .footer-section {
