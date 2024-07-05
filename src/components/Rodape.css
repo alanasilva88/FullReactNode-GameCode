@@ -1,18 +1,14 @@
 footer {
-    padding: 8px;
+    padding: 4px;
     background-color: #282c34;
     color: white;
     text-align: left;
     position: absolute;
-    bottom: 0;
+    bottom:0;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
-
-footer p {
-    
+    align-items: flex-end;
 }
 
 .footer-section h3 {
@@ -43,4 +39,22 @@ footer p {
     text-decoration: none;
     color: white;
     line-height: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .footer-section h3 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
 }
