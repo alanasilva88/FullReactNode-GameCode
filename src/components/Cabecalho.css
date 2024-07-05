@@ -1,15 +1,21 @@
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 20px;
   background-color: #282c34;
   color: white;
 }
 
+header img {
+  width: 100px;
+  border-radius: 50%;
+}
+
 nav ul {
   list-style: none;
   display: flex;
-  gap: 16px;
+  gap: 80px;
 }
 
 nav a {

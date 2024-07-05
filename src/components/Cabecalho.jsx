@@ -1,13 +1,14 @@
 import "./Cabecalho.css";
+import logo from "../assets/logo.gif";
 
 const Cabecalho = () => {
   const handleClick = () => {
-    alert('Olá! Bem-vindo ao Code Game!');
+    alert('Olá! Bem-vindo ao Game Code!');
   };
 
   return (
     <header>
-      <div>Logo aqui</div>
+      <img src={logo} alt="Logo" />
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
