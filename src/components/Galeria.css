@@ -1,7 +1,9 @@
 .galeria {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    padding: 0px;
+    color: black;
+    background: linear-gradient(.48turn, #40a 30%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
     flex-direction: auto;
+    font-size: large;
+    text-align: center;
 }

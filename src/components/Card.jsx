@@ -7,7 +7,9 @@ const Card = (props) => {
       <h2>{props.titulo}</h2>
       <p>{props.descricao}</p>
       <p>{props.preco}</p>
+      <button>Comprar</button>
     </section>
+    
   );
 };
 
