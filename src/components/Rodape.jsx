@@ -10,9 +10,7 @@ const Rodape = () => {
         <img src={iconGame} alt="Ícone Game" />
         <h3>Principais Jogos</h3>
         <ul className="footer-link" >
-          <li><a href="#">The Last of Us Part II</a></li>
           <li><a href="#">God of War</a></li>
-          <li><a href="#">Spider-Man</a></li>
           <li><a href="#">Uncharted 4: A Thief's End</a></li>
           <li><a href="#">Horizon Zero Dawn</a></li>
         </ul>

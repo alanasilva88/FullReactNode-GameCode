@@ -11,6 +11,9 @@ footer {
     align-items: center;
 }
 
+footer p {
+    
+}
 
 .footer-section h3 {
     text-shadow: 4px 4px 8px rgb(147, 22, 147);
@@ -33,6 +36,7 @@ footer {
 
 .footer-section ul li {
     margin-bottom: 5px;
+    list-style: none;
 }
 
 .footer-link a {
