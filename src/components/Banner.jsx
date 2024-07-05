@@ -7,8 +7,8 @@ import banner3 from "../assets/img3-game.png";
 const Banner = () => {
   return (
     <section className="banner">
-      <div className="animacao">
-        <div className="bem-vindo">
+      <section className="animacao">
+        <section className="bem-vindo">
         <h1>Bem-vindo ao Game Code!</h1>
         <p>Encontre os melhores jogos para PlayStation aqui!</p>
         <hr />
@@ -18,7 +18,7 @@ const Banner = () => {
 
           Desde então, a linha PlayStation evoluiu para incluir o PlayStation 2, PlayStation 3, PlayStation 4 e, mais recentemente, o PlayStation 5. Cada nova geração trouxe avanços tecnológicos significativos e uma vasta biblioteca de jogos incríveis.
         </p>
-        </div>
+        </section>
         <figure>
           <img src={banner} alt="Imagem Jogo" />
         </figure>
@@ -28,7 +28,7 @@ const Banner = () => {
         <figure>
           <img src={banner3} alt="Imagem Jogo 3" />
         </figure>
-      </div>
+      </section>
     </section>
   );
 };
