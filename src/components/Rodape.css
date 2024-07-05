@@ -1,11 +1,14 @@
 footer {
-    padding: 20px;
+    padding: 10px;
     background-color: #282c34;
     color: white;
     text-align: left;
-    position: relative;
+    position: absolute;
     bottom: 0;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer-section p,
