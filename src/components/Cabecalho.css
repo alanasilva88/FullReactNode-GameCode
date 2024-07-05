@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgb(147, 22, 147);
+  border-radius: 8px;
+  padding: 6px;
+}
+
+a:active {
+  filter: contrast(600%);
+  border-radius: 8px;
+}
+
+.botao {
+  background-color: #e7e7e7;
+  color: black;
+  border: 2px solid #e7e7e7;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.botao:hover {
+  background-color: transparent;
+  color: white;
+}

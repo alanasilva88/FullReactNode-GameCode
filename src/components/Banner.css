@@ -1,0 +1,24 @@
+.banner {
+    padding: 50px;
+    background-image: repeating-linear-gradient(to bottom, #282c34,  rgb(147, 22, 147), #282c34);
+    color: whitesmoke;    
+}
+
+.banner-section {
+    margin: 30px;
+}
+
+.banner-section h3 {
+    margin-bottom: 10px;
+}
+
+.animacao {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+
+@keyframes example {
+  from {background-color: transparent;}
+  to {color: black;}
+}
