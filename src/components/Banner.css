@@ -44,7 +44,6 @@ figure img {
     border-radius: 8px;
     width: 150px;
     height: 150px;
-    background: red;
     transition: width 2s, height 2s, transform 2s;
 }
 
