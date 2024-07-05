@@ -5,7 +5,11 @@ const jogos = [
   { cod: 1, titulo: 'The Last of Us Part II', descricao: 'Ação/Aventura', preco: 'R$199,99' },
   { cod: 2, titulo: 'God of War', descricao: 'Ação/Aventura', preco: 'R$149,99' },
   { cod: 3, titulo: 'Spider-Man', descricao: 'Ação/Aventura', preco: 'R$99,99' },
-  { cod: 4, titulo: 'Resident Evil', descricao: 'Ficção/Ação', preco: '299,90'},
+  { cod: 4, titulo: 'Resident Evil', descricao: 'Ficção/Ação', preco: 'R$299,90'},
+  { cod: 5, titulo: 'Counter Strike', descricao: 'Ação/Tiro', preco: 'R$399,99' },
+  { cod: 6, titulo: 'Duke Nukem 3D', descricao: 'Ficção/Ação', preco: 'R$69,90'},
+  { cod: 7, titulo: 'Mario Bros', descricao: 'Aventura', preco: 'R$169,90'},
+
   // Adicione mais jogos aqui
 ];
 

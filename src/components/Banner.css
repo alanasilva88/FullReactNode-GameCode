@@ -1,5 +1,5 @@
 .banner {
-    padding: 50px;
+    padding: 8px;
     background-image: repeating-linear-gradient(to bottom, #282c34,  rgb(147, 22, 147), #282c34);
     color: whitesmoke;    
 }
