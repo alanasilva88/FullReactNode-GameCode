@@ -1,5 +1,5 @@
 footer {
-    padding: 10px;
+    padding: 12px;
     background-color: #282c34;
     color: white;
     text-align: left;
@@ -11,6 +11,15 @@ footer {
     align-items: center;
 }
 
+.footer-section h3 {
+    text-shadow: 4px 4px 8px rgb(147, 22, 147);
+    margin-bottom: 10px;
+}
+
+.footer-section img {
+    color: rgb(147, 22, 147);
+}
+
 .footer-section p,
 .footer-section ul {
     margin: 0;
@@ -18,9 +27,15 @@ footer {
 
 .footer-section ul {
     padding: 0;
-    list-style: none;
+
 }
 
 .footer-section ul li {
     margin-bottom: 5px;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: white;
+    line-height: 8px;
 }
