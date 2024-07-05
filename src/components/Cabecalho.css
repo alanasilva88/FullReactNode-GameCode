@@ -35,12 +35,14 @@ a:active {
 }
 
 .botao {
+  font-family: sans-serif, cursive;
   background-color: #e7e7e7;
   color: black;
   border: 2px solid #e7e7e7;
   padding: 6px;
   border-radius: 6px;
   margin: 16px;
+  cursor: cell;
 }
 
 .botao:hover {

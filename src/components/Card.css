@@ -1,5 +1,8 @@
 .card {
-    border: 1px solid #ccc;
-    padding: 20px;
-    width: 200px;
+    align-content: center;
+    font-family: cursive;
+    border: 1px solid #ae0795;
+    padding: 8px;
+    width: 250px;
+    margin: 8px;
 }
