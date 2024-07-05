@@ -1,15 +1,27 @@
 .banner {
-    padding: 50px;
-    background-image: repeating-linear-gradient(to bottom, #282c34,  rgb(147, 22, 147), #282c34);
-    color: whitesmoke;    
+    padding: 6px;
+    background-image: repeating-linear-gradient(to bottom, #282c34, rgb(147, 22, 147), #282c34);
+    color: whitesmoke;
+}
+
+.animacao {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.animacao img {
+    height: 200px;
+    gap: 100px;
+}
+
+.bem-vindo {
+    width: 30%;
+    line-height: 1.6;
 }
 
 .banner-section {
     margin: 30px;
-}
-
-.banner-section h3 {
-    margin-bottom: 10px;
 }
 
 .animacao {
@@ -19,6 +31,24 @@
 }
 
 @keyframes example {
-  from {background-color: transparent;}
-  to {color: black;}
+    from {
+        background-color: transparent;
+    }
+
+    to {
+        color: black;
+    }
 }
+
+figure img {
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+    background: red;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+figure img:hover {
+    transform: rotate(45deg);
+}
+
