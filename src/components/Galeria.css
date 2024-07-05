@@ -3,7 +3,9 @@
     flex-wrap: wrap;
     color: black;
     background: linear-gradient(.48turn, #40a 30%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
-    flex-direction: auto;
+    flex-direction: row;
     font-size: large;
     text-align: center;
+    justify-content: space-between;
+    padding: 100px;
 }
