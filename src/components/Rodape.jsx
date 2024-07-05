@@ -1,10 +1,13 @@
 import "./Rodape.css";
+import iconGame from "../assets/icon-game.png"
+import icon2 from "../assets/icon-@.png";
 
 
 const Rodape = () => {
   return (
     <footer>
       <section className="footer-section">
+        <img src={iconGame} alt="Ícone Game" />
         <h3>Principais Jogos</h3>
         <ul>
           <li>The Last of Us Part II</li>
@@ -14,13 +17,14 @@ const Rodape = () => {
           <li>Horizon Zero Dawn</li>
         </ul>
       </section>
+      <p>© 2024 Game Code. Todos os direitos reservados.</p>
       <section className="footer-section">
+        <img src={icon2} alt="Ícone contato" width={40}/>
         <h3>Contato</h3>
         <p>Contato: contato@gamecode.com</p>
         <p>Telefone: (11) 1234-5678</p>
         <p>Endereço: Rua dos Jogos, 123, São Paulo, SP</p>
       </section>
-      <p>© 2024 Game Code. Todos os direitos reservados.</p>
     </footer>
   );
 };
