@@ -61,13 +61,13 @@ figure img:hover {
     }
 
     .bem-vindo {
-        width: 100%; 
+        width: 50%; 
         margin-right: 0; 
         margin-bottom: 20px; 
     }
 
     .animacao img {
         height: auto; 
-        max-width: 100%;
+        max-width: 80%;
     }
 }

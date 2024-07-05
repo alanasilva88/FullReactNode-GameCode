@@ -1,9 +1,9 @@
 footer {
-    padding: 4px;
+    padding: 10px;
     background-color: #282c34;
     color: white;
     text-align: left;
-    position: absolute;
+    position: fixed;
     bottom:0;
     width: 100%;
     display: flex;
