@@ -6,7 +6,7 @@ Este é o frontend de uma loja de games online desenvolvida em React. A aplicaç
 
 Este projeto utiliza as seguintes dependências:
 
-- **react** (^18.3.1): Biblioteca principal para construção da interface de usuário.
+- **react**: Biblioteca principal para construção da interface de usuário.
 
 ## Instalação
 
