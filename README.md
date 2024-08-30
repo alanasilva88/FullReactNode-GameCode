@@ -1,8 +1,17 @@
-# React + Vite
+# Loja de Games - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o frontend de uma loja de games online desenvolvida em React. A aplicação permite a navegação por um catálogo de jogos, visualização de detalhes, adição de jogos ao carrinho de compras e finalização de pedidos.
 
-Currently, two official plugins are available:
+## Dependências
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto utiliza as seguintes dependências:
+
+- **react** (^18.3.1): Biblioteca principal para construção da interface de usuário.
+
+## Instalação
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   cd nome-do-repositorio
