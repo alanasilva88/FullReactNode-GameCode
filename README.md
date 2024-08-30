@@ -1,6 +1,6 @@
 # Loja de Games - Frontend
 
-Este é o frontend de uma loja de games online desenvolvida em React. A aplicação permite a navegação por um catálogo de jogos, visualização de detalhes, adição de jogos ao carrinho de compras e finalização de pedidos.
+Este é o frontend de uma loja de games online desenvolvida em React. A aplicação permite a navegação por um catálogo de jogos.
 
 ## Dependências
 
